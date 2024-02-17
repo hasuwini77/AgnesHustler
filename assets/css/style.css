@@ -688,11 +688,17 @@ section {
   padding: 120px 0;
 }
 
+.cta2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/Aggy3.jpg") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+}
+
 .cta p {
   color: #fff;
 }
 
-.cta .cta-btn {
+.cta-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 2.5rem;
@@ -707,22 +713,23 @@ section {
   border-radius: 50px;
 }
 
-.cta .cta-btn:hover {
+.cta-btn:hover {
   background: #d89e0a;
 }
 
 @media (max-width: 1024px) {
-  .cta {
+  .cta,
+  .cta2 {
     background-attachment: scroll;
   }
 }
 
 @media (min-width: 769px) {
-  .cta .cta-btn-container {
+  .cta-btn-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    height: 80%;
   }
 }
 
