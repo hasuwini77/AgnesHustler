@@ -108,6 +108,7 @@ h6 {
 #contact {
   background-image: url(../img/Aggy3.jpg);
   background-size: cover;
+  height: 70vh;
 }
 
 /*--------------------------------------------------------------
@@ -180,12 +181,17 @@ h6 {
 }
 
 .btn-launch {
-  background-color: #c3660f;
+  background-color: transparent;
   color: white;
+  border: white solid 3px;
+  border-radius: 15px;
+  transition: all 0.6s;
 }
 
 .btn-launch:hover {
   background-color: #ed9326;
+  color: white;
+  scale: 1.1;
 }
 
 @media (max-width: 992px) {
@@ -1278,6 +1284,7 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
 .contact .info {
   width: 100%;
   background: #fff;
