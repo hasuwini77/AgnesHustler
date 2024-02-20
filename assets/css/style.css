@@ -730,20 +730,22 @@ section {
 .cta-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 2.5rem;
+  font-size: 2rem;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 12px 30px;
-  border-radius: 2px;
-  transition: 0.5s;
+  padding: 8px 30px;
   margin: 10px;
-  background: #e1970c;
-  color: #fff;
-  border-radius: 50px;
+  background-color: transparent;
+  color: white;
+  border: white solid 3px;
+  border-radius: 15px;
+  transition: all 0.6s;
 }
 
 .cta-btn:hover {
-  background: #d89e0a;
+  background-color: #ed9326;
+  color: white;
+  scale: 1.1;
 }
 
 @media (max-width: 1024px) {
